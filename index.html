@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home vs Guest Scoreboard</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Home Scoreboard -->
+    <div class="scoreboard">
+      <h2>Home</h2>
+      <h1>Score: <span id="homeScore">0</span></h1>
+      <div class="button-container">
+        <button class="increment-btn" id="homeBtn1">+1</button>
+        <button class="increment-btn" id="homeBtn2">+2</button>
+        <button class="increment-btn" id="homeBtn3">+3</button>
+      </div>
+    </div>
+
+    <!-- Guest Scoreboard -->
+    <div class="scoreboard">
+      <h2>Guest</h2>
+      <h1>Score: <span id="guestScore">0</span></h1>
+      <div class="button-container">
+        <button class="increment-btn" id="guestBtn1">+1</button>
+        <button class="increment-btn" id="guestBtn2">+2</button>
+        <button class="increment-btn" id="guestBtn3">+3</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
